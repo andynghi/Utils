@@ -244,6 +244,10 @@ svn revert . --recursive
 svn merge https://svnserver.com/svn/ABC/trunk
 
 === GIT command line
+-- commit counts by person
+git shortlog -s -n --all --no-merges
+
+
 -- checkout force
 git checkout -f WS-415
 
